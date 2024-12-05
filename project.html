@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Armaandeep's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Armaan-Resume.pdf" onclick="goToResumePage()">Resume</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">skill</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+    <div class="project-section">
+        <h2 class="section-title">🚀 Our Projects 🌟</h2>
+        <ul class="project-list">
+            <li class="project-item">
+                <div class="project-title" onclick="toggleDetails('project1')">
+                    <h3>💬 Project 1: Chatbox with AI 🤖</h3>
+                    <span class="toggle-btn">+</span>
+                </div>
+                <div id="project1" class="project-details">
+                    <img src="chatbot.jpg" alt="Chatbox with AI" class="project-image">
+                    <p>💻 A smart chatbox powered by AI that can interact with users. Built using:</p>
+                    <ul>
+                        <li>🌐 <b>HTML</b>, <b>CSS</b>, <b>JS</b> for front-end</li>
+                        <li>🤖 <b>AI API</b> for intelligent responses</li>
+                    </ul>
+                    <a href="https://armaandeep12345.github.io/chatbot/" class="project-link" target="_blank">Open Chatbox 💬</a>
+                </div>
+            </li>
+            <li class="project-item">
+                <div class="project-title" onclick="toggleDetails('project3')">
+                    <h3>🖼️ Project 2: Upload Image Gallery 🌟</h3>
+                    <span class="toggle-btn">+</span>
+                </div>
+                <div id="project3" class="project-details">
+                    <img src="JYI413anis3GBl1yhmhvPlGognx6T4LOUNiD.avif" alt="Image Gallery" class="project-image">
+                    <p>📸 An online image gallery showcasing stunning visuals and photography. Users can upload and view images with a beautiful interface.</p>
+                    <ul>
+                        <li>🌐 <b>Languages Used:</b> <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b> for front-end</li>
+                        <li>🔧 <b>Backend:</b> <b>PHP</b> for server-side functionality and image uploads</li>
+                        <li>🔌 <b>API:</b> Used for image storage and management via <b>REST API</b> to interact with a cloud service or server for storing images</li>
+                    </ul>
+                    <a href="https://armaandeep12345.github.io/ai-upload/" class="project-link" target="_blank">Explore Image Gallery 🖼️</a>
+                </div>
+            </li>
+            <li class="project-item">
+                <div class="project-title" onclick="toggleDetails('project6')">
+                    <h3>📧 Project 3: Mailer System 📬</h3>
+                    <span class="toggle-btn">+</span>
+                </div>
+                <div id="project6" class="project-details">
+                    <img src="letters-open-mailbox-isolated-white-background-39073867.webp" alt="Mailer System" class="project-image">
+                    <p>📧 A mailer system to send automated emails using PHP and PHPMailer. Built with:</p>
+                    <ul>
+                        <li>🌐 <b>PHP</b> for backend</li>
+                        <li>📨 <b>PHPMailer</b> for sending emails</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="project-item">
+                <div class="project-title" onclick="toggleDetails('project7')">
+                    <h3>💻 Project 4: Light Pro Website (Computer Accessories) 💡</h3>
+                    <span class="toggle-btn">+</span>
+                </div>
+                <div id="project7" class="project-details">
+                    <img src="download (2).jpg" alt="Light Pro Website" class="project-image">
+                    <p>💡 A website for selling computer accessories with an elegant design. Built using:</p>
+                    <ul>
+                        <li>🌐 <b>HTML</b>, <b>CSS</b>, <b>JS</b> for front-end</li>
+                        <li>💻 <b>PHP</b> for backend and product management</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="project-item">
+                <div class="project-title" onclick="toggleDetails('project8')">
+                    <h3>🗣️ Project 5: Jarvis AI Voice Command 🤖</h3>
+                    <span class="toggle-btn">+</span>
+                </div>
+                <div id="project8" class="project-details">
+                    <img src="F0ZWYHTI8ZQZ55Q.webp" alt="Jarvis AI Voice Command" class="project-image">
+                    <p>🎤 An AI voice command system that can control various devices using Python. Built with:</p>
+                    <ul>
+                        <li>🐍 <b>Python</b> for voice recognition and command processing</li>
+                    </ul>
+                    <a href="project8-link.html" class="project-link" target="_blank">Explore Jarvis AI 🤖</a>
+                </div>
+            </li>
+            <li class="project-item">
+                <div class="project-title" onclick="toggleDetails('project9')">
+                    <h3>🏋️‍♂️ Project 6: Gym Website 🏃‍♀️</h3>
+                    <span class="toggle-btn">+</span>
+                </div>
+                <div id="project9" class="project-details">
+                    <img src="download (3).jpg" alt="Gym Website" class="project-image">
+                    <p>💪 A fitness and gym website for workout tracking and health tips. Built using:</p>
+                    <ul>
+                        <li>🌐 <b>HTML</b>, <b>CSS</b>, <b>JS</b> for front-end</li>
+                    </ul>
+                    <a href="project9-link.html" class="project-link" target="_blank">Visit Gym Website 🏋️‍♂️</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
